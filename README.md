@@ -10,7 +10,7 @@ A **reorganized undergraduate computer vision experiment** using a lightweight f
 ![Archived example 1](semantic-segmentation-fcn-resnet18/results/examples/result_0.png)
 ![Archived example 2](semantic-segmentation-fcn-resnet18/results/examples/result_1.png)
 
-More original output figures are in [`results/examples/`](results/examples/). Figures are retained as exported and may use a different color visualization from the reorganized script.
+More original output figures are in [results/examples/](semantic-segmentation-fcn-resnet18/results/examples/). Figures are retained as exported and may use a different color visualization from the reorganized script.
 
 ## Architecture
 
@@ -68,7 +68,7 @@ python -m segmentation.visualize \
   --checkpoint outputs/last.pt --count 6
 ```
 
-Metrics: dataset-level **pixel accuracy**, **mIoU**, **mean Dice**, and number of evaluated (union-present) classes; ignore pixels (`255`) are excluded. Validation scores have not been generated for this release. The original auxiliary script included Hausdorff/recall/F1 calculations, but their batch-level implementation was not retained due to shape/ignore-pixel issues. See [`docs/changes.md`](docs/changes.md).
+Metrics: dataset-level **pixel accuracy**, **mIoU**, **mean Dice**, and number of evaluated (union-present) classes; ignore pixels (`255`) are excluded. Validation scores have not been generated for this release. The original auxiliary script included Hausdorff/recall/F1 calculations, but their batch-level implementation was not retained due to shape/ignore-pixel issues. See [docs/changes.md](semantic-segmentation-fcn-resnet18/docs/changes.md).
 
 ## Original experiment vs 2026 portfolio cleanup
 
