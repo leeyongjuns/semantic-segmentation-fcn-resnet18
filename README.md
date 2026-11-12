@@ -7,8 +7,8 @@ A **reorganized undergraduate computer vision experiment** using a lightweight f
 
 ## Sample undergraduate outputs (qualitative only)
 
-![Archived example 1](results/examples/result_1.png)
-![Archived example 2](results/examples/result_2.png)
+![Archived example 1](semantic-segmentation-fcn-resnet18/results/examples/result_0.png)
+![Archived example 2](semantic-segmentation-fcn-resnet18/results/examples/result_1.png)
 
 More original output figures are in [`results/examples/`](results/examples/). Figures are retained as exported and may use a different color visualization from the reorganized script.
 
