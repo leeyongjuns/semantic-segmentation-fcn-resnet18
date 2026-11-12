@@ -1,0 +1,6 @@
+# Install compatible PyTorch + torchvision builds for your platform first:
+# https://pytorch.org/get-started/locally/
+numpy>=1.24,<3
+Pillow>=10,<13
+torch>=2.2,<3
+torchvision>=0.17,<1
